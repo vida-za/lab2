@@ -232,6 +232,10 @@ address, footer span {
   height: 50px;
 }
 
+.mystyle {
+  color: #993333;
+}
+
 /* !!! Правила, определяющие мобильную версию для смартфонов !!! */
 @media only screen and (max-width:620px) {
 .menu, .text {

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,20 +9,51 @@
   <link rel="icon" type="image/png" href="favicon.png" />
   <link rel="stylesheet" type="text/css" href="style.css" media="screen">
 </head>
+
 <body>
-&nbsp;<div class="text">
+  &nbsp;<div class="text">
     <main>
       <h1>Спартак</h1>
-        <p OnMouseOver="this.style.fontFamily='Verdana'; this.style.color='pink'" OnMouseOut="this.style.fontFamily='Georgia, Times New Roman, Times, serif'; this.style.color='black'">- российский футбольный клуб из Москвы. Основан 18 апреля 1922 года. Самый популярный российский клуб по исследованию «Яндекса», один из самых популярных футбольных клубов страны по исследованию ВЦИОМ. Входит в топ-20 самых популярных клубов Европы.<br>
-        Самый титулованный футбольный клуб России. 12-кратный чемпион СССР, 10-кратный чемпион России, 10-кратный обладатель Кубка СССР, 4-кратный обладатель Кубка России, обладатель Суперкубка России, 6-кратный обладатель Кубка Содружества, полуфиналист трёх главных клубных европейских турниров (Кубка европейских чемпионов, Кубка обладателей кубков и Кубка УЕФА). Лучший российский клуб в истории Лиги чемпионов. С советских времён распространено клише «„Спартак“ — народная команда».</p>
-        <p OnMouseOver="this.className='mystyle'" OnMouseOut="this.className='text'">
-          esrserdae.
-        </p>
-        </details>&nbsp;<h2>Предыстория общества</h2>
-          <p class="news"><span class="date">1921 год - </span>Декрет СНК от 7 июля 1921 года о Промкооперации (Промысловой Кооперации).</p>
-          <p class="news"><span class="date">1925 год - </span>появление физкультурных кружков артелей Промысловой кооперации.</p>
-          <p class="news"><span class="date">1928 год - </span>футбольная команда «Кустари» проводит свой первый товарищеский матч. После данной игры, весь спорт в Промысловой кооперации стал развиваться быстрее.</p>
-          <p class="news"><span class="date">1931 год - </span>«Промкооперация» выступает в чемпионате Москвы с зимы 1930/31 года по хоккею с мячом и с весны 1931 года в чемпионате Москвы по футболу.</p>
+      <p OnMouseOver="this.style.fontFamily='Verdana'; this.style.color='pink'"
+        OnMouseOut="this.style.fontFamily='Georgia, Times New Roman, Times, serif'; this.style.color='black'">-
+        российский футбольный клуб из Москвы. Основан 18 апреля 1922 года. Самый популярный российский клуб по
+        исследованию «Яндекса», один из самых популярных футбольных клубов страны по исследованию ВЦИОМ. Входит в топ-20
+        самых популярных клубов Европы.<br>
+        Самый титулованный футбольный клуб России. 12-кратный чемпион СССР, 10-кратный чемпион России, 10-кратный
+        обладатель Кубка СССР, 4-кратный обладатель Кубка России, обладатель Суперкубка России, 6-кратный обладатель
+        Кубка Содружества, полуфиналист трёх главных клубных европейских турниров (Кубка европейских чемпионов, Кубка
+        обладателей кубков и Кубка УЕФА). Лучший российский клуб в истории Лиги чемпионов. С советских времён
+        распространено клише «„Спартак“ — народная команда».
+      </p>
+      <p OnMouseOver="MouseOn(this)" OnMouseOut="MouseOff(this)">
+        «Спартак» является самым титулованным клубом России (38 трофеев). Клубу принадлежат рекорды по количеству побед
+        в чемпионате России (10 титулов) и в Кубке СССР (10 побед). Кроме того, «Спартак» шесть раз в своей истории
+        выигрывал «дубль» (победы в чемпионате и кубке в течение одного сезона) и является единственной командой в СССР
+        которая дважды подряд выигрывала «дубль» (сезоны 1938, 1939). «Спартак» является самой успешной из российских
+        команд в главном клубном турнире Европы (1/2 финала Кубка европейских чемпионов в сезоне 1990/91). Также клуб в
+        1995 году повторил рекорд по числу побед в групповом этапе Лиги чемпионов (6 побед в 6 матчах).
+      </p>
+      </details>&nbsp;<h2>Предыстория общества</h2>
+      <p class="news"><span class="date">1921 год - </span>Декрет СНК от 7 июля 1921 года о Промкооперации (Промысловой
+        Кооперации).</p>
+      <p class="news"><span class="date">1925 год - </span>появление физкультурных кружков артелей Промысловой
+        кооперации.</p>
+      <p class="news"><span class="date">1928 год - </span>футбольная команда «Кустари» проводит свой первый
+        товарищеский матч. После данной игры, весь спорт в Промысловой кооперации стал развиваться быстрее.</p>
+      <p class="news"><span class="date">1931 год - </span>«Промкооперация» выступает в чемпионате Москвы с зимы 1930/31
+        года по хоккею с мячом и с весны 1931 года в чемпионате Москвы по футболу.</p>
+  </div>
+  <div>
+    <table class="tableStyle">
+      <tr>
+        <td class="mystyle2" onMouseOver="changeCellStyle(this)" onmouseLeave="changeCellStyle(this)">F</td>
+        <td class="mystyle" onMouseOver="changeCellStyle(this)" onMouseLeave="changeCellStyle(this)">C</td>
+      </tr>
+      <tr>
+        <td class="mystyle" onMouseOver="changeCellStyle(this)" onMouseLeave="changeCellStyle(this)">S</td>
+        <td class="mystyle2" onMouseOver="changeCellStyle(this)" onMouseLeave="changeCellStyle(this)">M</td>
+      </tr>
+    </table>
   </div>
   <div class="buttons">
     <input id="btn_win" type="button" value="Window" name="window">
@@ -29,6 +61,21 @@
     <input id="btn_loc" type="button" value="Location" name="location">
     <input id="btn_scr" type="button" value="Screen" name="screen">
   </div>
+
+  <div class="images">
+    <img src="bongonda.jpg" class="image" style="z-index: 3" name="image1">
+    <img src="zoba.jpg" class="image" style="z-index: 2" name="image2">
+    <img src="emblem_fcsm_1.jpg" class="image" style="z-index: 1" name="image3">
+  </div>
+
+  <div class="buttons">
+    <button onClick="hideMiddleImage()">Скрыть среднюю картинку</button>
+    <button onClick="showMiddleImage()">Показать среднюю картинку</button>
+    <button onClick="swapImages()">Поменять местами переднюю и заднюю картинки</button>
+  </div>
+
+
   <script src="scripts.js"></script>
 </body>
+
 </html>
